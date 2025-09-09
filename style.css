@@ -7,14 +7,17 @@
 body{
     font-family: Arial, sans-serif;
    /*linha vertical*/ line-height: 1.6;
-   background-color: rgb(34, 24, 109);
+   background-color: #c3c4e2;
+   font-family: 'Constantia', serif;
 }
 
+
 header{
-    background-color: rgb(132, 170, 222);
+    background-color: #08106d;
     color: white;
     padding: 1rem 0;
     text-align: center;
+    font-family: 'Cooper', Times, serif;
 }
 
 header h1{
@@ -31,27 +34,38 @@ nav ul{
     padding: 0;
 }
 nav ul li a{
-    color: #ffffff;
+    color: #b3d2f5ed;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover{
-    color: rgb(38, 24, 10);
+    color: rgb(128, 133, 238);
+    cursor: pointer;
+}
+
+nav ul li a:hover{
+    color: rgb(128, 133, 238);
+    cursor: pointer;
+}
+
+nav ul li a:hover{
+    color: rgb(128, 133, 238);
     cursor: pointer;
 }
 
 section {
     padding: 2rem;
     margin: 1rem;
-    background: #ead7b6;
+    background: #6b84cf;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgb(250, 249, 249);
 }
 
 .container{
     max-width: 800px;
     margin: 0 auto;
+
 }
 
 h2{
@@ -70,20 +84,30 @@ h2{
     height: 120px;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid #90501c;
+    border: 4px solid #bcbcfe;
 }
 
-.sobre-informacoes{
+.sobre-formacoes{
     flex: 1;
 }
-
-.sobre-informacoes h2{
+.projetos-fotos{
+     display: inline-flex;
+     align-items: center;
+     gap:2rem;
+}
+.sobre-projetos h2{
     margin-bottom: 0.5rem;
+ 
 }
 
-.sobre-informacoes p{
+.sobre-skills p{
     font-size: 1rem;
-    color: #4a2323;
+    color: #040404;
+}
+
+.sobre-contatos{
+    flex: 1;
+    text-align: center;
 }
 
 .cards{
@@ -96,7 +120,7 @@ h2{
     border-radius: 8px;
     padding: 1rem;
     width: 100%;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgb(253, 253, 253);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
 }
@@ -109,4 +133,94 @@ h2{
 .hobby i{
     font-size: 2rem;
     color: rgb(138, 137, 113);
+}
+
+.foto-shark{
+    background:radial-gradient(circle, rgba(250,250,250,0.9)0%, rgba(63, 156, 249, 0.76)50%, rgba(230, 234, 254, 0.892)100%);
+    border-radius: 8px;
+    padding: 1rem;
+    width: 35%;
+    box-shadow: 0 4px 8px rgb(253, 253, 253);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: right;
+}
+.foto-shark:hover{
+     transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(72, 135, 229, 0.973);
+}
+
+.foto-puro:hover{
+     transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(72, 135, 229, 0.973);
+}
+
+.foto-puro{
+   background:radial-gradient(circle, rgba(250,250,250,0.9)0%, rgba(63, 156, 249, 0.76)50%, rgba(230, 234, 254, 0.892)100%);
+    border-radius: 8px;
+    padding: 1rem;
+    width: 35%;
+    box-shadow: 0 4px 8px rgb(253, 253, 253);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: right;
+}
+
+.foto-cozinha:hover{
+     transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(72, 135, 229, 0.973);
+}
+
+.foto-cozinha{
+   background:radial-gradient(circle, rgba(250,250,250,0.9)0%, rgba(63, 156, 249, 0.76)50%, rgba(230, 234, 254, 0.892)100%);
+    border-radius: 8px;
+    padding: 1rem;
+    width: 30%;
+    box-shadow: 0 4px 8px rgb(253, 253, 253);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: right;
+}
+
+.foto-danca:hover{
+     transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(72, 135, 229, 0.973);
+}
+
+
+.foto-danca{
+   background:radial-gradient(circle, rgba(250,250,250,0.9)0%, rgba(63, 156, 249, 0.76)50%, rgba(230, 234, 254, 0.892)100%);
+    border-radius: 8px;
+    padding: 1rem;
+    width: 30%;
+    box-shadow: 0 4px 8px rgb(253, 253, 253);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: right;
+}
+
+.foto-canva:hover{
+     transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(72, 135, 229, 0.973);
+}
+
+.foto-canva{
+   background:radial-gradient(circle, rgba(250,250,250,0.9)0%, rgba(63, 156, 249, 0.76)50%, rgba(230, 234, 254, 0.892)100%);
+    border-radius: 8px;
+    padding: 1rem;
+    width: 30%;
+    box-shadow: 0 4px 8px rgb(253, 253, 253);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: right;
+}
+
+.foto-excel:hover{
+     transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(72, 135, 229, 0.973);
+}
+
+.foto-excel{
+   background:radial-gradient(circle, rgba(250,250,250,0.9)0%, rgba(63, 156, 249, 0.76)50%, rgba(230, 234, 254, 0.892)100%);
+    border-radius: 8px;
+    padding: 1rem;
+    width: 30%;
+    box-shadow: 0 4px 8px rgb(253, 253, 253);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: right;
 }
